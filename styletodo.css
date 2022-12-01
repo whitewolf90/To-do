@@ -1,0 +1,64 @@
+body{
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    height: 35px;
+    width: 80px;
+    border: none;
+    border-radius: 30px;
+    background-color: lightblue ;
+    transition: all 0.2s ease-in;
+  }
+  
+  button:hover {
+   background-color: blue;
+   transition: 0.4s;
+   color: aliceblue;
+  }
+  
+  input {
+    height: 10px;
+    width: 230px;
+    padding: 10px;
+    background-color: lightblue;
+  }
+
+  input[type="checkbox"] {
+    height: 32px;
+    width: 22px;
+  }
+
+  .to-do-instance {
+    border: 1px solid black;
+    margin: 10px 0;
+    width: 300px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: rgb(65, 123, 200);
+    height: fit-content;
+    padding: 20px;
+  }
+
+  #main-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  
+  .to-do-instance.done {
+    background-color: rgb(87, 129, 3);
+  }
+  
